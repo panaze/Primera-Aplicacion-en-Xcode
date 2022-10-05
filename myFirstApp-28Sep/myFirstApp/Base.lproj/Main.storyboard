@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21225" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21207"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="myFirstApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Azf-UC-jZM">
+                                <rect key="frame" x="20" y="90" width="374" height="336"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pablo Navarro Zepeda" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xrr-Me-ZPT">
+                                        <rect key="frame" x="8" y="8" width="170" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="A01284116" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PQO-Cz-1dQ">
+                                        <rect key="frame" x="8" y="37" width="85" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tecnológico de Monterrey (ITC)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pgh-ni-n8r">
+                                        <rect key="frame" x="8" y="66" width="241" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Me gusta salir con mis amigos y programar" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oDa-EJ-k6o">
+                                        <rect key="frame" x="24" y="108" width="326" height="102"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="102" id="Cnv-Iv-yIy"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ultimo libro que leiste: Shoe Dog" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2gT-eV-egj">
+                                        <rect key="frame" x="8" y="261" width="249" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ultimo viaje: San Miguel de Allende" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lz1-SL-kdD">
+                                        <rect key="frame" x="8" y="290" width="267" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hobbie: Ver series" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1qJ-tx-utq">
+                                        <rect key="frame" x="8" y="232" width="140" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemTealColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="2gT-eV-egj" secondAttribute="bottom" constant="54" id="0xo-oy-0LU"/>
+                                    <constraint firstItem="oDa-EJ-k6o" firstAttribute="top" secondItem="Pgh-ni-n8r" secondAttribute="bottom" constant="21" id="2lh-mT-trO"/>
+                                    <constraint firstItem="xrr-Me-ZPT" firstAttribute="top" secondItem="Azf-UC-jZM" secondAttribute="topMargin" id="80e-du-3Dp"/>
+                                    <constraint firstItem="oDa-EJ-k6o" firstAttribute="centerX" secondItem="Azf-UC-jZM" secondAttribute="centerX" id="9D4-zl-PBM"/>
+                                    <constraint firstItem="lz1-SL-kdD" firstAttribute="leading" secondItem="Pgh-ni-n8r" secondAttribute="leading" id="AgM-pO-EbB"/>
+                                    <constraint firstItem="2gT-eV-egj" firstAttribute="leading" secondItem="1qJ-tx-utq" secondAttribute="leading" id="D0G-8I-gks"/>
+                                    <constraint firstItem="2gT-eV-egj" firstAttribute="leading" secondItem="lz1-SL-kdD" secondAttribute="leading" id="GUk-ZY-EmW"/>
+                                    <constraint firstItem="2gT-eV-egj" firstAttribute="top" secondItem="1qJ-tx-utq" secondAttribute="bottom" constant="8" id="H1G-Bq-lZM"/>
+                                    <constraint firstItem="oDa-EJ-k6o" firstAttribute="leading" secondItem="Azf-UC-jZM" secondAttribute="leading" constant="24" id="HwI-do-gh8"/>
+                                    <constraint firstItem="Pgh-ni-n8r" firstAttribute="top" secondItem="PQO-Cz-1dQ" secondAttribute="bottom" constant="8" id="N2r-GV-XAk"/>
+                                    <constraint firstItem="Pgh-ni-n8r" firstAttribute="leading" secondItem="PQO-Cz-1dQ" secondAttribute="leading" id="Qav-TW-Qbr"/>
+                                    <constraint firstItem="PQO-Cz-1dQ" firstAttribute="leading" secondItem="xrr-Me-ZPT" secondAttribute="leading" id="XkR-Zw-P3J"/>
+                                    <constraint firstItem="xrr-Me-ZPT" firstAttribute="leading" secondItem="Azf-UC-jZM" secondAttribute="leadingMargin" id="dPk-BP-bLt"/>
+                                    <constraint firstItem="lz1-SL-kdD" firstAttribute="top" secondItem="2gT-eV-egj" secondAttribute="bottom" constant="8" id="kLX-pm-UST"/>
+                                    <constraint firstItem="PQO-Cz-1dQ" firstAttribute="top" secondItem="xrr-Me-ZPT" secondAttribute="bottom" constant="8" id="nBE-Na-fIb"/>
+                                </constraints>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mi primer aplicación" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WX2-Lk-YSQ">
+                                <rect key="frame" x="118" y="48" width="178" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Azf-UC-jZM" firstAttribute="centerX" secondItem="WX2-Lk-YSQ" secondAttribute="centerX" id="4dp-fG-YRM"/>
+                            <constraint firstItem="Azf-UC-jZM" firstAttribute="top" secondItem="WX2-Lk-YSQ" secondAttribute="bottom" constant="21" id="HMZ-yJ-ynz"/>
+                            <constraint firstItem="Azf-UC-jZM" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="Nzw-Df-0Mi"/>
+                            <constraint firstItem="WX2-Lk-YSQ" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="WyM-Ge-naG"/>
+                            <constraint firstItem="WX2-Lk-YSQ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="118" id="au3-8S-WDO"/>
+                            <constraint firstItem="WX2-Lk-YSQ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="vUZ-5U-H7J"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Azf-UC-jZM" secondAttribute="bottom" constant="436" id="x5Z-3E-pc2"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="18.840579710144929" y="68.973214285714278"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemTealColor">
+            <color red="0.18823529411764706" green="0.69019607843137254" blue="0.7803921568627451" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
